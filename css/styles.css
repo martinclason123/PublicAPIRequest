@@ -3,6 +3,7 @@
 ======================================== */
 
 @import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://db.onlinewebfonts.com/c/335787aa6f57d71cabe8eb5dc89c6d6b?family=Blender+Pro");
 
 * {
 	box-sizing: border-box;
@@ -15,9 +16,9 @@ body {
 }
 
 body {
-	font-family: "Nunito", sans-serif;
+	font-family: "Blender Pro", sans-serif;
 	text-align: center;
-	background: rgba(235, 235, 235, 0.9);
+	background: #002244;
 }
 
 header {
@@ -31,7 +32,7 @@ header {
 
 header h1 {
 	font-size: 1.25em;
-	color: rgba(50, 50, 50, 0.9);
+	color: #a5acaf;
 	margin-top: 35px;
 }
 
@@ -93,7 +94,7 @@ header h1 {
 	padding: 10px;
 	background: rgba(245, 245, 245, 0.9);
 	border-radius: 0.25em;
-	border: 1px solid rgba(50, 50, 50, 0.3);
+	border: 1px solid #69be28;
 	transition: 0.4s ease-out;
 	overflow: hidden;
 }
@@ -102,6 +103,7 @@ header h1 {
 	width: 95px;
 	margin: 10px 15px auto 10px;
 	border-radius: 50%;
+	border: 1px solid #002244;
 }
 
 .card-info-container {
